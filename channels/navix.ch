@@ -92,4 +92,32 @@ channel NaviX {
 		type=navix
 		subtitle=swesub,s4u,ut.se,allSubs
 	}
+	folder {
+		name=4u2c
+		url=http://www.navixtreme.com/playlist/15488/justme4u2c_movies.plx
+		prop=continue_name=(.*>>>.*|.*Next [Pp]age.*),continue_limit=6,auto_asx
+		type=navix
+		subtitle=swesub,s4u,ut.se,allSubs
+	}
+	folder {
+		name=Bm's hdmovies
+		url=http://www.navixtreme.com/playlist/50308/bms_hd_movies.plx
+		prop=continue_name=(.*>>>.*|.*Next [Pp]age.*),continue_limit=6,auto_asx
+		type=navix
+		subtitle=swesub,s4u,ut.se,allSubs
+	
+}
+	folder {
+		name=Mysterys
+		url=http://www.navixtreme.com/playlist/74713/myster504s_hd_movies.plx
+		prop=continue_name=(.*>>>.*|.*Next [Pp]age.*),continue_limit=6,auto_asx
+		type=navix
+		subtitle=swesub,s4u,ut.se,allSubs
+}
+	folder {
+		name=TV
+		url=http://www.navixtreme.com/playlist/65899/tv_series_(mega_pack).plx
+		prop=continue_name=(.*>>>.*|.*Next [Pp]age.*),continue_limit=6,auto_asx
+		type=navix
+		subtitle=swesub,s4u,ut.se,allSubs
 }
